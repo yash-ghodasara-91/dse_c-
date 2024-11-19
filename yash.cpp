@@ -1,8 +1,7 @@
-// Your First C++ Program
-
-#include <iostream>
-
-int main() {
-    std::cout << "Hello World!";
+#include<iostream>
+using namespace std;
+int main()
+{
+    cout<< 77777;
     return 0;
 }
