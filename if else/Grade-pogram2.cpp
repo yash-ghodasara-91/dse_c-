@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+main() {
     
     cout << "--------------------------------------------------------------------\n"; 
     int score;
