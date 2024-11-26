@@ -18,8 +18,4 @@ cout << "Enter a value of the first number: ";
      (a < b )
         ? ((a < c)?cout << "a is min":cout << "c is min" )
         :((b < c)?cout << "b is min":cout << "c is min" );
-
-
-                        
-
 }
