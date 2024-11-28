@@ -2,7 +2,7 @@
 using namespace std;
 
 main() {
-   
+    //question = 1
     cout << "--------------------------------------------------------------------\n"; 
     cout << "question = 1"<< endl;
     int a = 1;
@@ -69,10 +69,15 @@ main() {
     cout << "Output:" << endl;
  
     while (start <= end) {
-        cout << start << endl;
-        start += 4; 
+
+        if ((start%4==0 && start%100!=0)|| start % 400 == 0)
+        {
+            cout << start << endl;
+            start++;
+        }else{
+            start++; 
+        }
         
-            // cout << endl;
        
     }
     
