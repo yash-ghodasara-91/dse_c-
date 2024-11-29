@@ -3,25 +3,6 @@ using namespace  std;
 
 main () {
 
-// Question-4
-
- cout << "--------------------------------------------------------------------\n"; 
- cout << "Question-4" << endl;
-
-// 1 2 3 4 5
-// 2 3 4 5
-// 3 4 5
-// 4 5
-// 5
-
-
- for (int i = 1; i <= 5; i++) {
-    for (int j = i; j <=5; j++)
-    {
-        cout << j << " " ;
-    }
-    cout << endl;
- }
 
  // question-1
 
@@ -86,6 +67,25 @@ for (int i = 5; i >= 1; i--) {
         cout << endl; 
     }
 
+// Question-4
+
+ cout << "--------------------------------------------------------------------\n"; 
+ cout << "Question-4" << endl;
+
+// 1 2 3 4 5
+// 2 3 4 5
+// 3 4 5
+// 4 5
+// 5
+
+
+ for (int i = 1; i <= 5; i++) {
+    for (int j = i; j <=5; j++)
+    {
+        cout << j << " " ;
+    }
+    cout << endl;
+ }
 
 // Question-5
 
