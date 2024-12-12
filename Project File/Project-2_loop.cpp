@@ -34,7 +34,7 @@ main() {
 
 
 
-    // Question-2
+    // Question-3
     cout << "----------------------------------------------" << endl;
     cout << "Question-3" << endl;
 
