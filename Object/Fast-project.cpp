@@ -48,7 +48,7 @@ int  main () {
     Student arr[10];
 
     for( int s = 0; s < 10; s++) {
-
+ 
         arr[s].setdeta();
         arr[s].getdeta();
 
