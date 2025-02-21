@@ -94,7 +94,7 @@ int main() {
                 int key;
                 cout << "Enter element to search: ";
                 cin >> key;
-                int result = binarySearch(arr, 0, n - 1, key);
+                int result = binarySearch(arr, 0, n - 1, key); 
                 if (result != -1)
                     cout << "Element found at index " << result << endl;
                 else
